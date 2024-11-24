@@ -9,6 +9,7 @@ import org.example.lessonFour.exerciseOne.ExerciseOne;
 import org.example.lessonFour.exerciseSeven.ExerciseSeven;
 import org.example.lessonFour.exerciseSix.ExerciseSix;
 import org.example.lessonFour.exerciseTen.ExerciseTen;
+import org.example.lessonFour.exerciseThirteen.ExerciseThirteen;
 import org.example.lessonFour.exerciseThree.ExerciseThree;
 import org.example.lessonFour.exerciseTwelve.ExerciseTwelve;
 import org.example.lessonFour.exerciseTwo.ExerciseTwo;
@@ -49,7 +50,9 @@ public class Main {
         //Задание 11.
         //new ExerciseEleven().arrayLengthHundred();
         //Задание 12.
-        new ExerciseTwelve().correctArray();
+        //new ExerciseTwelve().correctArray();
+        //Задание 13.
+        new ExerciseThirteen().findElementsArray();
 
     }
 }
