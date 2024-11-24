@@ -7,7 +7,7 @@ public class ExerciseSix {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Задание 6.");
         System.out.print("Введите целое число: ");
-        int a = scanner.nextInt();
+        double a = scanner.nextDouble();
         if (a >= 0) {
             System.out.println("Ответ: Число положительно");
         }
