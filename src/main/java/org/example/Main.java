@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.lessonFour.exerciseOne.ExerciseOne;
+import org.example.lessonFour.exerciseThree.ExerciseThree;
 import org.example.lessonFour.exerciseTwo.ExerciseTwo;
 
 import java.util.Scanner;
@@ -14,6 +15,7 @@ public class Main {
         // Задание 2.
         new ExerciseTwo().checkSumSign();
         // Задание 3.
+        new ExerciseThree().printColor();
         //printColor();
         // Задание 4.
         //compareNumbers();
@@ -35,19 +37,7 @@ public class Main {
     // Задание 2.
 
     // Задание 3.
-    public static void printColor() {
-        int value = 101;
 
-        if (value <= 0) {
-            System.out.println("Задание 3: Красный");
-        }
-        else if (value > 0 && value <= 100) {
-            System.out.println("Задание 3: Желтый");
-        }
-        else {
-            System.out.println("Задание 3: Зеленый");
-        }
-    }
     // Задание 4.
     public static void compareNumbers() {
         int a = 3;
