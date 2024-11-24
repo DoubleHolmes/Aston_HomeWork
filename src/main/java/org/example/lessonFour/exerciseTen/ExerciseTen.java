@@ -10,8 +10,8 @@ public class ExerciseTen {
                 array[i] = 0; // Заменяем 1 на 0
             }
         }
+        System.out.println("Задание 10: ");
         for (int num : array) {
-            System.out.println("Задание 10: ");
             System.out.print(num + " ");
         }
     }

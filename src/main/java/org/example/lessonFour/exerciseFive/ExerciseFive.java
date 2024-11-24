@@ -12,7 +12,6 @@ public class ExerciseFive {
         int a = scanner.nextInt();
         System.out.print("Введите целое число №2: ");
         int b = scanner.nextInt();
-        scanner.close();
         int c = a + b;
         boolean results = (c >=10 && c <=20);
         System.out.println("Ответ: " + results);

@@ -6,6 +6,7 @@ public class ExerciseFourteen {
         for (int i = 0; i < arr.length; i ++) {
             arr[i] = initialValue;
         }
+        System.out.println("Задание 14:");
         for (int num: arr) {
             System.out.println(num);
         }

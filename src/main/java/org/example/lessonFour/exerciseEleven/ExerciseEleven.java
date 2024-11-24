@@ -6,7 +6,7 @@ public class ExerciseEleven {
         for (int i = 0; i < array.length; i++){
             array[i] = i + 1;
         }
-        System.out.println("Задание 11: ");
+        System.out.println("\nЗадание 11: ");
         for (int num : array) {
             System.out.print(num + " ");
         }

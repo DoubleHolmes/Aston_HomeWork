@@ -56,5 +56,6 @@ public class Main {
         new ExerciseThirteen().findElementsArray();
         //Задание 14.
         new ExerciseFourteen().lenInitialValue(5, 100);
+        scanner.close();
     }
 }

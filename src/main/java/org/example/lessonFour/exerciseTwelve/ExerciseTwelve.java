@@ -8,7 +8,7 @@ public class ExerciseTwelve {
                 array [i] = array[i] * 2;
             }
         }
-        System.out.println("Задание 12: ");
+        System.out.println("\nЗадание 12: ");
         for (int num : array) {
             System.out.print(num + " ");
         }
