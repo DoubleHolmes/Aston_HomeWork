@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.lessonFour.exerciseOne.ExerciseOne;
+import org.example.lessonFour.exerciseTwo.ExerciseTwo;
 
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ public class Main {
         // Задание 1.
         new ExerciseOne().printThreeWords();
         // Задание 2.
-        //checkSumSign();
+        new ExerciseTwo().checkSumSign();
         // Задание 3.
         //printColor();
         // Задание 4.
@@ -32,18 +33,7 @@ public class Main {
     }
     // Задание 1.
     // Задание 2.
-    public static void checkSumSign() {
-        int a = -15;
-        int b = 2;
-        int c = a+b;
 
-        if (c >= 0) {
-            System.out.println("Задание 2: Сумма положительная");
-        }
-        else {
-            System.out.println("Задание 2: Сумма отрицательная");
-        }
-    }
     // Задание 3.
     public static void printColor() {
         int value = 101;
