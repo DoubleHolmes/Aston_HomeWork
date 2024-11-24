@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.lessonFour.exerciseFour.ExerciseFour;
 import org.example.lessonFour.exerciseOne.ExerciseOne;
 import org.example.lessonFour.exerciseThree.ExerciseThree;
 import org.example.lessonFour.exerciseTwo.ExerciseTwo;
@@ -16,8 +17,8 @@ public class Main {
         new ExerciseTwo().checkSumSign();
         // Задание 3.
         new ExerciseThree().printColor();
-        //printColor();
         // Задание 4.
+        new ExerciseFour().compareNumbers();
         //compareNumbers();
         //Задание 5.
         //checkNumbers();
@@ -33,23 +34,8 @@ public class Main {
         arrayChange();
 
     }
-    // Задание 1.
-    // Задание 2.
-
-    // Задание 3.
 
     // Задание 4.
-    public static void compareNumbers() {
-        int a = 3;
-        int b = 4;
-
-        if (a >= b) {
-            System.out.println("Задание 4: a >= b");
-        }
-        else {
-            System.out.println("Задание 4: a < b");
-        }
-    }
     // Задание 5.
     public static void checkNumbers() {
         Scanner scanner = new Scanner(System.in);

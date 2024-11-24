@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Выполнено первое задание. Создан метод printThreeWords() и вызван в Main.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseTwo/ExerciseTwo.java" afterDir="false" />
+    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Выполнено четвертое задание. Создан метод compareNumbers() и вызван в Main.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseFour/ExerciseFour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -111,10 +111,46 @@
       <option name="project" value="LOCAL" />
       <updated>1732458009023</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Выполнено второе задание. Создан метод checkSumSign() и вызван в Main.">
+      <option name="closed" value="true" />
+      <created>1732458425025</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732458425025</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Выполнено третье задание. Создан метод printColor() и вызван в Main.">
+      <option name="closed" value="true" />
+      <created>1732459008729</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732459008729</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="Lesson_4" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -128,6 +164,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create .gitignore and pom.xml" />
     <MESSAGE value="Выполнено первое задание. Создан метод printThreeWords() и вызван в Main." />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнено первое задание. Создан метод printThreeWords() и вызван в Main." />
+    <MESSAGE value="Выполнено второе задание. Создан метод checkSumSign() и вызван в Main." />
+    <MESSAGE value="Выполнено третье задание. Создан метод printColor() и вызван в Main." />
+    <MESSAGE value="Выполнено четвертое задание. Создан метод compareNumbers() и вызван в Main." />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнено четвертое задание. Создан метод compareNumbers() и вызван в Main." />
   </component>
 </project>
