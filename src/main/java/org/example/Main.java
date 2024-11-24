@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.lessonFour.exerciseFive.ExerciseFve;
 import org.example.lessonFour.exerciseFour.ExerciseFour;
 import org.example.lessonFour.exerciseOne.ExerciseOne;
 import org.example.lessonFour.exerciseThree.ExerciseThree;
@@ -19,9 +20,8 @@ public class Main {
         new ExerciseThree().printColor();
         // Задание 4.
         new ExerciseFour().compareNumbers();
-        //compareNumbers();
         //Задание 5.
-        //checkNumbers();
+        new ExerciseFve().checkNumbers();
         // Задание 6.
         //positiveOrNegative();
         // Задание 7.
@@ -35,20 +35,8 @@ public class Main {
 
     }
 
-    // Задание 4.
-    // Задание 5.
-    public static void checkNumbers() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Задание 5.");
-        System.out.print("Введите целое число №1: ");
-        int a = scanner.nextInt();
-        System.out.print("Введите целое число №2: ");
-        int b = scanner.nextInt();
-        int c = a + b;
-        boolean results = (c >=10 && c <=20);
-        System.out.println("Ответ: " + results);
-        scanner.close();
-    }
+
+
     // Задание 6.
     public static void positiveOrNegative() {
         Scanner scanner = new Scanner(System.in);
