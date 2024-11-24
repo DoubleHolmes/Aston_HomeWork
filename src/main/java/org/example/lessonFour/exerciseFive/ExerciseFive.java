@@ -4,7 +4,7 @@ import java.util.Scanner;
 /* Метод, который принимает из консоли два целых числа, и проверяет
 * в каком промежутке лежит их сумма (от 10 до 20 включительно - если да- выводит true,
 * если нет- выводит false.*/
-public class ExerciseFve {
+public class ExerciseFive {
     public void checkNumbers() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Задание 5.");

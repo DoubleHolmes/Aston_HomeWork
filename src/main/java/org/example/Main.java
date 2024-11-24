@@ -1,8 +1,9 @@
 package org.example;
 
-import org.example.lessonFour.exerciseFive.ExerciseFve;
+import org.example.lessonFour.exerciseFive.ExerciseFive;
 import org.example.lessonFour.exerciseFour.ExerciseFour;
 import org.example.lessonFour.exerciseOne.ExerciseOne;
+import org.example.lessonFour.exerciseSix.ExerciseSix;
 import org.example.lessonFour.exerciseThree.ExerciseThree;
 import org.example.lessonFour.exerciseTwo.ExerciseTwo;
 
@@ -21,9 +22,9 @@ public class Main {
         // Задание 4.
         new ExerciseFour().compareNumbers();
         //Задание 5.
-        new ExerciseFve().checkNumbers();
+        new ExerciseFive().checkNumbers();
         // Задание 6.
-        //positiveOrNegative();
+        new ExerciseSix().positiveOrNegative();
         // Задание 7.
         //returnResult();
         // Задание 8.
@@ -38,19 +39,7 @@ public class Main {
 
 
     // Задание 6.
-    public static void positiveOrNegative() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Задание 6.");
-        System.out.print("Введите целое число: ");
-        int a = scanner.nextInt();
-        if (a >= 0) {
-            System.out.println("Ответ: Число положительно");
-        }
-        else {
-            System.out.println("Ответ: Число отрицательное");
-        }
-        scanner.close();
-    }
+
 
     // Задание 7.
     public static void returnResult() {

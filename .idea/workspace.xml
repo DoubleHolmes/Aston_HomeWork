@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Выполнено четвертое задание. Создан метод compareNumbers() и вызван в Main.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseFive/ExerciseFve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Выполнено пятое задание. Создан метод checkNumbers()и вызван в Main." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732459566639</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Выполнено пятое задание. Создан метод checkNumbers()и вызван в Main.">
+      <option name="closed" value="true" />
+      <created>1732460321106</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732460321106</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,14 +179,15 @@
     <MESSAGE value="Выполнено второе задание. Создан метод checkSumSign() и вызван в Main." />
     <MESSAGE value="Выполнено третье задание. Создан метод printColor() и вызван в Main." />
     <MESSAGE value="Выполнено четвертое задание. Создан метод compareNumbers() и вызван в Main." />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнено четвертое задание. Создан метод compareNumbers() и вызван в Main." />
+    <MESSAGE value="Выполнено пятое задание. Создан метод checkNumbers()и вызван в Main." />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнено пятое задание. Создан метод checkNumbers()и вызван в Main." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>24</line>
+          <line>23</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
