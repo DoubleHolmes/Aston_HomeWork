@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Выполнено десятое задание. Создан метод arrayChange().">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseEleven/ExerciseEleven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Выполнено одинадцатое задание. Создан метод arrayLengthHundred().">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseTwelve/ExerciseTwelve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732463153606</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Выполнено одинадцатое задание. Создан метод arrayLengthHundred().">
+      <option name="closed" value="true" />
+      <created>1732463804992</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732463804992</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +245,7 @@
     <MESSAGE value="Выполнено восьмое задание. Создан метод printLine()." />
     <MESSAGE value="Выполнено девятое задание. Создан метод leapYear()." />
     <MESSAGE value="Выполнено десятое задание. Создан метод arrayChange()." />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнено десятое задание. Создан метод arrayChange()." />
+    <MESSAGE value="Выполнено одинадцатое задание. Создан метод arrayLengthHundred()." />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнено одинадцатое задание. Создан метод arrayLengthHundred()." />
   </component>
 </project>
