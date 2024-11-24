@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.lessonFour.exerciseEight.ExerciseEight;
 import org.example.lessonFour.exerciseFive.ExerciseFive;
 import org.example.lessonFour.exerciseFour.ExerciseFour;
 import org.example.lessonFour.exerciseOne.ExerciseOne;
@@ -34,7 +35,7 @@ public class Main {
         int b = scanner.nextInt();
         new ExerciseSeven().returnResult(b);
         // Задание 8.
-        //printLine("Привет всем!", 5);
+        new ExerciseEight().printLine("Привет всем!", 5);
         //Задание 9.
         //leapYear();
         //Задание 10.
@@ -42,12 +43,6 @@ public class Main {
 
     }
     // Задание 8.
-        public static void printLine(String text, int count) { //метод принимает параметры текст и кол-во
-            System.out.println("Задание 8: ");
-            for (int i = 0; i < count; i++) { // вывод строк нужное кол-во раз
-                System.out.println(text);
-            }
-        }
 
         //Задание 9.
         public static void leapYear() {
