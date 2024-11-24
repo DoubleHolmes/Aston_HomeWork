@@ -7,6 +7,7 @@ import org.example.lessonFour.exerciseNine.ExerciseNine;
 import org.example.lessonFour.exerciseOne.ExerciseOne;
 import org.example.lessonFour.exerciseSeven.ExerciseSeven;
 import org.example.lessonFour.exerciseSix.ExerciseSix;
+import org.example.lessonFour.exerciseTen.ExerciseTen;
 import org.example.lessonFour.exerciseThree.ExerciseThree;
 import org.example.lessonFour.exerciseTwo.ExerciseTwo;
 
@@ -42,24 +43,6 @@ public class Main {
         int year = scanner.nextInt();
         new ExerciseNine().leapYear(year);
         //Задание 10.
-       // arrayChange();
-
+        new ExerciseTen().arrayChange();
     }
-
-        // Задание 10.
-        public static void arrayChange() {
-            int[] array = {0, 1, 0, 1};
-            for (int i = 0; i < array.length; i++) {
-                if (array[i] == 0) {
-                    array[i] = 1; // Заменяем 0 на 1
-                } else {
-                    array[i] = 0; // Заменяем 1 на 0
-                }
-            }
-            for (int num : array) {
-                System.out.println("Задание 10: ");
-                System.out.print(num + " ");
-            }
-
-        }
 }
