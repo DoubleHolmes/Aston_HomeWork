@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Выполнено четырнадцатое задание. Создан метод lenInitialValue().">
+    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Правка .gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/MethodsFofLessonFour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseEleven/ExerciseEleven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseEleven/ExerciseEleven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseFive/ExerciseFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseFive/ExerciseFive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseTen/ExerciseTen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseTen/ExerciseTen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseEight/ExerciseEight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseEleven/ExerciseEleven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseFive/ExerciseFive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseFour/ExerciseFour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseFourteen/ExerciseFourteen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseNine/ExerciseNine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseOne/ExerciseOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseSeven/ExerciseSeven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseSix/ExerciseSix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseTen/ExerciseTen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseThirteen/ExerciseThirteen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseThree/ExerciseThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseTwelve/ExerciseTwelve.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseTwo/ExerciseTwo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +43,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DoubleHolmes"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DoubleHolmes&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DoubleHolmes/Aston_HomeWork.git",
-    "accountId": "ec924bad-f662-45cf-a0e5-8e702b605c28"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DoubleHolmes/Aston_HomeWork.git&quot;,
+    &quot;accountId&quot;: &quot;ec924bad-f662-45cf-a0e5-8e702b605c28&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -57,14 +69,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson__4",
+    "git-widget-placeholder": "#1 on Lesson__4",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shaik/IdeaProjects/Test",
     "onboarding.tips.debug.path": "C:/Users/shaik/IdeaProjects/Lesson4/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.folding"
   }
 }]]></component>
@@ -225,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732466200850</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Выполнила правку кода в отношение вывода в консоль результата.">
+      <option name="closed" value="true" />
+      <created>1732467103592</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732467103592</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Правка .gitignore">
+      <option name="closed" value="true" />
+      <created>1732467477491</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732467477491</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +307,8 @@
     <MESSAGE value="Выполнено двенадцатое задание. Создан метод correctArray()." />
     <MESSAGE value="Выполнено тринадцатое задание. Создан метод findElementsArray()." />
     <MESSAGE value="Выполнено четырнадцатое задание. Создан метод lenInitialValue()." />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнено четырнадцатое задание. Создан метод lenInitialValue()." />
+    <MESSAGE value="Выполнила правку кода в отношение вывода в консоль результата." />
+    <MESSAGE value="Правка .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Правка .gitignore" />
   </component>
 </project>
