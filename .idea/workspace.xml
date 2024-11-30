@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Правка .gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/MethodsFofLessonFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseEight/ExerciseEight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseEleven/ExerciseEleven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseFive/ExerciseFive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseFour/ExerciseFour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseFourteen/ExerciseFourteen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseNine/ExerciseNine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseOne/ExerciseOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseSeven/ExerciseSeven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseSix/ExerciseSix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseTen/ExerciseTen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseThirteen/ExerciseThirteen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseThree/ExerciseThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseTwelve/ExerciseTwelve.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lessonFour/exerciseTwo/ExerciseTwo.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DoubleHolmes&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DoubleHolmes/Aston_HomeWork.git&quot;,
+    &quot;accountId&quot;: &quot;ec924bad-f662-45cf-a0e5-8e702b605c28&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2pFsbgNCFnRVItatoCgKzcHHTYd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "#1 on Lesson__4",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/shaik/IdeaProjects/Test",
+    "onboarding.tips.debug.path": "C:/Users/shaik/IdeaProjects/Lesson4/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.folding"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="" />
+      <created>1732373235782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732373235782</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Create .gitignore and pom.xml">
+      <option name="closed" value="true" />
+      <created>1732457062691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732457062691</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Выполнено первое задание. Создан метод printThreeWords() и вызван в Main.">
+      <option name="closed" value="true" />
+      <created>1732458009023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732458009023</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Выполнено второе задание. Создан метод checkSumSign() и вызван в Main.">
+      <option name="closed" value="true" />
+      <created>1732458425025</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732458425025</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Выполнено третье задание. Создан метод printColor() и вызван в Main.">
+      <option name="closed" value="true" />
+      <created>1732459008729</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732459008729</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Выполнено четвертое задание. Создан метод compareNumbers() и вызван в Main.">
+      <option name="closed" value="true" />
+      <created>1732459566639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732459566639</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Выполнено пятое задание. Создан метод checkNumbers()и вызван в Main.">
+      <option name="closed" value="true" />
+      <created>1732460321106</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732460321106</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Выполнено шестое задание. Создан метод positiveOrNegative() и вызван в Main.">
+      <option name="closed" value="true" />
+      <created>1732460622784</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732460622784</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Был изменен тип вводимой переменной &quot;а&quot; с int на double/">
+      <option name="closed" value="true" />
+      <created>1732460789885</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732460789885</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Выполнено седьмое задание. Создан метод returnResult(). Была добавлена возможность ввода данных из класса main. В 6 задании выполнена передача переменной в метод.">
+      <option name="closed" value="true" />
+      <created>1732461971147</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732461971147</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Выполнено восьмое задание. Создан метод printLine().">
+      <option name="closed" value="true" />
+      <created>1732462304441</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732462304441</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Выполнено девятое задание. Создан метод leapYear().">
+      <option name="closed" value="true" />
+      <created>1732462836848</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732462836848</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Выполнено десятое задание. Создан метод arrayChange().">
+      <option name="closed" value="true" />
+      <created>1732463153606</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732463153606</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Выполнено одинадцатое задание. Создан метод arrayLengthHundred().">
+      <option name="closed" value="true" />
+      <created>1732463804992</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732463804992</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Выполнено двенадцатое задание. Создан метод correctArray().">
+      <option name="closed" value="true" />
+      <created>1732464367936</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732464367936</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Выполнено тринадцатое задание. Создан метод findElementsArray().">
+      <option name="closed" value="true" />
+      <created>1732465431835</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732465431835</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Выполнено четырнадцатое задание. Создан метод lenInitialValue().">
+      <option name="closed" value="true" />
+      <created>1732466200850</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732466200850</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Выполнила правку кода в отношение вывода в консоль результата.">
+      <option name="closed" value="true" />
+      <created>1732467103592</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732467103592</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Правка .gitignore">
+      <option name="closed" value="true" />
+      <created>1732467477491</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732467477491</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="Lesson_4" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create .gitignore and pom.xml" />
+    <MESSAGE value="Выполнено первое задание. Создан метод printThreeWords() и вызван в Main." />
+    <MESSAGE value="Выполнено второе задание. Создан метод checkSumSign() и вызван в Main." />
+    <MESSAGE value="Выполнено третье задание. Создан метод printColor() и вызван в Main." />
+    <MESSAGE value="Выполнено четвертое задание. Создан метод compareNumbers() и вызван в Main." />
+    <MESSAGE value="Выполнено пятое задание. Создан метод checkNumbers()и вызван в Main." />
+    <MESSAGE value="Выполнено шестое задание. Создан метод positiveOrNegative() и вызван в Main." />
+    <MESSAGE value="Был изменен тип вводимой переменной &quot;а&quot; с int на double/" />
+    <MESSAGE value="Выполнено седьмое задание. Создан метод returnResult(). Была добавлена возможность ввода данных из класса main. В 6 задании выполнена передача переменной в метод." />
+    <MESSAGE value="Выполнено восьмое задание. Создан метод printLine()." />
+    <MESSAGE value="Выполнено девятое задание. Создан метод leapYear()." />
+    <MESSAGE value="Выполнено десятое задание. Создан метод arrayChange()." />
+    <MESSAGE value="Выполнено одинадцатое задание. Создан метод arrayLengthHundred()." />
+    <MESSAGE value="Выполнено двенадцатое задание. Создан метод correctArray()." />
+    <MESSAGE value="Выполнено тринадцатое задание. Создан метод findElementsArray()." />
+    <MESSAGE value="Выполнено четырнадцатое задание. Создан метод lenInitialValue()." />
+    <MESSAGE value="Выполнила правку кода в отношение вывода в консоль результата." />
+    <MESSAGE value="Правка .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Правка .gitignore" />
+  </component>
+</project>
