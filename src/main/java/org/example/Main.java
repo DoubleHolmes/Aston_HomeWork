@@ -1,48 +1,31 @@
 package org.example;
 
-import org.example.lessonFour.MethodsFofLessonFour;
-
-import java.util.Scanner;
+import org.example.lessonSix.Attraction;
+import org.example.lessonSix.Park;
+import org.example.lessonSix.Person;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        MethodsFofLessonFour method = new MethodsFofLessonFour();
+        // Создание массива из 5 сотрудников
+        Person[] persArray = new Person[5];
 
-        //Задание 1.
-        method.printThreeWords();
-        // Задание 2.
-        method.checkSumSign();
-        // Задание 3.
-        method.printColor();
-        // Задание 4.
-        method.compareNumbers();
-        //Задание 5.
-        method.checkNumbers();
-        //Задание 6.
-        System.out.println("Задание 6.\nВведите целое число: ");
-        int a = scanner.nextInt();
-        method.positiveOrNegative(a);
-        // Задание 7.
-        System.out.println("Задание 7.\nВведите целое число: ");
-        int b = scanner.nextInt();
-        method.returnResult(b);
-        // Задание 8.
-        method.printLine("Привет всем!", 5);
-        //Задание 9.
-        System.out.println("Задание 9.\nВведите год: ");
-        int year = scanner.nextInt();
-        method.leapYear(year);
-        //Задание 10.
-        method.arrayChange();
-        //Задание 11.
-        method.arrayLengthHundred();
-        //Задание 12.
-        method.correctArray();
-        //Задание 13.
-        method.findElementsArray();
-        //Задание 14.
-        method.lenInitialValue(5, 100);
-        scanner.close();
+        // Заполнение массива объектами Person
+        persArray[0] = new Person("Иван", "Иванов", "Иванович", "Менеджер", "ivanov@example.com", "+375-29-123-45-67", 50000.0, (byte) 30);
+        persArray[1] = new Person("Петр", "Петров", "Петрович", "Разработчик", "petrov@example.com", "+375-29-765-43-21", 60000.0, (byte) 28);
+        persArray[2] = new Person("Светлана", "Сидорова", "Сидоровна", "Дизайнер", "sidorova@example.com", "+375-29-111-22-22", 55000.0, (byte) 26);
+        persArray[3] = new Person("Алексей", "Алексеев", "Алексеевич", "Аналитик", "alekseev@example.com", "+375-29-333-44-44", 70000.0, (byte) 35);
+        persArray[4] = new Person("Мария", "Савостеева", "Дмитриева", "HR-менеджер", "savosteeva@example.com", "+375-29-555-66-66", 45000.0, (byte) 29);
+
+        // Вывод информации в консоль о людях из массива
+        for (Person person : persArray) {
+            person.getInfAboutPerson(person);
+        }
+
+        //Создан парк с аттракционом
+        Park park = new Park(new Attraction("Американские горки", "9:00", "21:00",
+                10.95));
+
+        // Вывод информации в консоль о парке
+        System.out.println(park);
     }
 }
