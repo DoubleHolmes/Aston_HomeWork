@@ -1,8 +1,4 @@
-package org.example;
-
-import org.example.lessonSix.Attraction;
-import org.example.lessonSix.Park;
-import org.example.lessonSix.Person;
+package org.example.lessonSix;
 
 public class Main {
     public static void main(String[] args) {

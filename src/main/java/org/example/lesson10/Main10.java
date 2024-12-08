@@ -1,5 +1,15 @@
 package org.example.lesson10;
 
+
+import org.example.lesson10.models.Animal;
+import org.example.lesson10.models.Cat;
+import org.example.lesson10.models.Dog;
+import org.example.lesson10.models.FoodBowl;
+import org.example.lesson10.task2.Circle;
+import org.example.lesson10.task2.Shape;
+import org.example.lesson10.task2.Triangle;
+import org.example.lesson10.task2.Rectangle;
+
 public class Main10 {
 
     public static void main(String[] args) {
@@ -9,7 +19,7 @@ public class Main10 {
         Animal dog2 = new Dog("Макс");
         Animal cat2 = new Cat("Зефирка");
 
-
+        System.out.println("Задание 1: \n");
         dog1.run(300);  // Вывод: Бадди пробежал 300 метров.
         dog1.swim(5);   // Вывод: Бадди проплыл 5 метров.
         dog1.swim(15);  // Вывод: Бадди не может проплыть более 10 метров.
@@ -24,7 +34,7 @@ public class Main10 {
         cat2.run(170);  // Вывод: Зефирка пробежал 170 метров.
         cat2.swim(7);  // Вывод: Зефирка не умеет плавать.
 
-        System.out.println("Добавление возможность у котов кушать из миски:");
+        System.out.println("\nДобавление возможность у котов кушать из миски: ");
 
         Cat[] cats = {
                 new Cat("Барсик"),
@@ -41,7 +51,7 @@ public class Main10 {
 
         // Печатаем информацию о сытости котов
         for (Cat cat : cats) {
-            System.out.println(cat.getName() + " теперь " + (cat.isFull() ? "сыт." : "остался голодным."));
+            System.out.println(cat.getName() + (cat.isFull() ? " наелся." : "остался голодным."));
         }
 
         // Добавляем еду в миску
@@ -54,9 +64,24 @@ public class Main10 {
 
         // Печатаем информацию о сытости котов
         for (Cat cat : cats) {
-            System.out.println(cat.getName() + " теперь " + (cat.isFull() ? "сыт." : "остался голодным."));
+            System.out.println(cat.getName() + (cat.isFull() ? " наелся." : " остался голодным."));
         }
 
-        System.out.println("Общее количество созданных: " + Animal.getAnimalCount()); // Вывод: общее количество животных
+        System.out.println("\nОбщее количество созданных животных: " + Animal.getAnimalCount()); // Вывод: общее количество животных
+
+        System.out.println("\nЗадание 2: ");
+        Shape circle = new Circle(5, "Red", "Black");
+        Shape triangle = new Triangle(3, 4, 5, "Yellow", "Purple");
+        Shape rectangle = new Rectangle(4, 6, "Blue", "Green");
+        System.out.println("Параметры круга:");
+        circle.printProperties();
+        System.out.println();
+
+        System.out.println("Параметры прямоугольника:");
+        rectangle.printProperties();
+        System.out.println();
+
+        System.out.println("Параметры треугольника:");
+        triangle.printProperties();
     }
 }

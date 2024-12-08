@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Создан класс Cat и Dog с наследованием от класса Animal. Реализован подсчет созданных животных. У котов реализована возможность есть из миски.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson10/task2/Shape.java" afterDir="false" />
+    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Добавлен интерфейс Shape">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson10/models/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson10/models/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson10/models/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson10/models/FoodBowl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson10/task2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson10/task2/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson10/task2/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lessonSix/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson10/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson10/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson10/Main10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson10/task2/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson10/task2/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +81,11 @@
 }</component>
   <component name="RunManager" selected="Application.Main10">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lessonSix.Main" />
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.lessonSix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +98,7 @@
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson10.*" />
+          <option name="PATTERN" value="org.example.lesson10.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733592064338</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Добавлен интерфейс Shape">
+      <option name="closed" value="true" />
+      <created>1733592916918</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1733592916918</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,7 +348,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Lesson_6" />
+                        <option value="origin/Lesson_10" />
                       </list>
                     </value>
                   </entry>
@@ -366,6 +384,7 @@
     <MESSAGE value="Создан класс Park содержащий все необходимые атрибуты." />
     <MESSAGE value="Создание новых объектов Person и Park и вывод информации о них в консоль" />
     <MESSAGE value="Создан класс Cat и Dog с наследованием от класса Animal. Реализован подсчет созданных животных. У котов реализована возможность есть из миски." />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан класс Cat и Dog с наследованием от класса Animal. Реализован подсчет созданных животных. У котов реализована возможность есть из миски." />
+    <MESSAGE value="Добавлен интерфейс Shape" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен интерфейс Shape" />
   </component>
 </project>
