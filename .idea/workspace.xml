@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Исправлена структура кода.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson12/ArrayProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson12/MyArrayDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson12/MyArraySizeException.java" afterDir="false" />
+    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Работа с коллекциями HashMap и List">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/FactorialTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -27,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_10" />
+        <entry key="$PROJECT_DIR$" value="Lesson_14_junit_5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,9 +61,14 @@
     "Application.Main.executor": "Debug",
     "Application.Main10.executor": "Run",
     "Application.Main12.executor": "Debug",
+    "Application.PhoneBook.executor": "Run",
+    "Application.UniqueWordsCounter.executor": "Debug",
+    "Maven.Lesson4 [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson__12",
+    "TestNG.FactorialTest.executor": "Run",
+    "git-widget-placeholder": "Lesson__14__testng",
+    "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shaik/IdeaProjects/Aston_project/Aston_HomeWork",
@@ -75,20 +79,7 @@
     "settings.editor.selected.configurable": "editor.preferences.folding"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main12">
-    <configuration name="ArrayProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson12.ArrayProcessor" />
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.FactorialTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lessonSix.Main" />
       <module name="Lesson4" />
@@ -102,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson10.Main10" />
+    <configuration name="UniqueWordsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson13.UniqueWordsCounter" />
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson10.models.*" />
+          <option name="PATTERN" value="org.example.lesson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,24 +106,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson12.Main12" />
+    <configuration name="FactorialTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson12.*" />
+          <option name="PATTERN" value="org.example.lesson14_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson14_1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson14_1.FactorialTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main12" />
-        <item itemvalue="Application.ArrayProcessor" />
-        <item itemvalue="Application.Main10" />
+        <item itemvalue="TestNG.FactorialTest" />
+        <item itemvalue="Application.UniqueWordsCounter" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -380,7 +374,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Lesson_12" />
+                        <option value="Lesson_14_junit_5" />
                       </list>
                     </value>
                   </entry>
