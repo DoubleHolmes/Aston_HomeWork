@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Исправлена структура кода.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson12/ArrayProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson12/MyArrayDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson12/MyArraySizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson15/MtsCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -27,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_10" />
+        <entry key="$PROJECT_DIR$" value="Lesson_13" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,9 +60,16 @@
     "Application.Main.executor": "Debug",
     "Application.Main10.executor": "Run",
     "Application.Main12.executor": "Debug",
+    "JUnit.MtsCheck.executor": "Run",
+    "JUnit.MtsCheck.testContinue.executor": "Run",
+    "JUnit.MtsCheck.testLink.executor": "Run",
+    "JUnit.MtsCheck.testLinkFunctionality.executor": "Debug",
+    "JUnit.MtsCheck.testLogoPresence.executor": "Debug",
+    "JUnit.MtsCheck.testOpen.executor": "Run",
+    "Maven.Lesson4 [-Dtest=NOT_RESOLVED...].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson__12",
+    "git-widget-placeholder": "Lesson__15",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shaik/IdeaProjects/Aston_project/Aston_HomeWork",
@@ -75,65 +80,94 @@
     "settings.editor.selected.configurable": "editor.preferences.folding"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main12">
-    <configuration name="ArrayProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson12.ArrayProcessor" />
+  <component name="RunManager" selected="JUnit.MtsCheck.testContinue">
+    <configuration name="MtsCheck.testContinue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson12.*" />
+          <option name="PATTERN" value="org.example.lesson15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson15" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson15.MtsCheck" />
+      <option name="METHOD_NAME" value="testContinue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lessonSix.Main" />
+    <configuration name="MtsCheck.testLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lessonSix.*" />
+          <option name="PATTERN" value="org.example.lesson15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson15" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson15.MtsCheck" />
+      <option name="METHOD_NAME" value="testLink" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson10.Main10" />
+    <configuration name="MtsCheck.testLinkFunctionality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson10.models.*" />
+          <option name="PATTERN" value="org.example.lesson15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson15" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson15.MtsCheck" />
+      <option name="METHOD_NAME" value="testLinkFunctionality" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson12.Main12" />
+    <configuration name="MtsCheck.testLogoPresence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson12.*" />
+          <option name="PATTERN" value="org.example.lesson15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson15" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson15.MtsCheck" />
+      <option name="METHOD_NAME" value="testLogoPresence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MtsCheck.testOpen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson15" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson15.MtsCheck" />
+      <option name="METHOD_NAME" value="testOpen" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main12" />
-        <item itemvalue="Application.ArrayProcessor" />
-        <item itemvalue="Application.Main10" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MtsCheck.testContinue" />
+        <item itemvalue="JUnit.MtsCheck.testLink" />
+        <item itemvalue="JUnit.MtsCheck.testLogoPresence" />
+        <item itemvalue="JUnit.MtsCheck.testLinkFunctionality" />
+        <item itemvalue="JUnit.MtsCheck.testOpen" />
       </list>
     </recent_temporary>
   </component>
