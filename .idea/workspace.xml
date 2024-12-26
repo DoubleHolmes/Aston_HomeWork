@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Исправлена структура кода.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson13/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson13/UniqueWordsCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Исправлена структура кода." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +60,7 @@
     "Application.UniqueWordsCounter.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson__13",
+    "git-widget-placeholder": "#5 on Lesson__13",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shaik/IdeaProjects/Aston_project/Aston_HomeWork",
@@ -361,15 +357,10 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="FILTERS">
+              <option name="COLUMN_ID_WIDTH">
                 <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="Lesson_12" />
-                      </list>
-                    </value>
-                  </entry>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="83" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="98" />
                 </map>
               </option>
             </State>
