@@ -4,13 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Исправлена структура кода.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson12/ArrayProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson12/MyArrayDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson12/MyArraySizeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +20,6 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_10" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,9 +54,6 @@
     "Application.Main.executor": "Debug",
     "Application.Main10.executor": "Run",
     "Application.Main12.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson__12",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shaik/IdeaProjects/Aston_project/Aston_HomeWork",
@@ -75,20 +64,6 @@
     "settings.editor.selected.configurable": "editor.preferences.folding"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main12">
-    <configuration name="ArrayProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson12.ArrayProcessor" />
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lessonSix.Main" />
       <module name="Lesson4" />
@@ -102,12 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson10.Main10" />
+    <configuration name="PhoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson13.PhoneBook" />
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson10.models.*" />
+          <option name="PATTERN" value="org.example.lesson13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueWordsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson13.UniqueWordsCounter" />
+      <module name="Lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,9 +118,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main12" />
-        <item itemvalue="Application.ArrayProcessor" />
-        <item itemvalue="Application.Main10" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -375,15 +360,8 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="FILTERS">
+              <option name="COLUMN_ID_WIDTH">
                 <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="Lesson_12" />
-                      </list>
-                    </value>
-                  </entry>
                 </map>
               </option>
             </State>
