@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Исправлена структура кода.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson15/MtsCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_13" />
+
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,16 +56,7 @@
     "Application.Main.executor": "Debug",
     "Application.Main10.executor": "Run",
     "Application.Main12.executor": "Debug",
-    "JUnit.MtsCheck.executor": "Run",
-    "JUnit.MtsCheck.testContinue.executor": "Run",
-    "JUnit.MtsCheck.testLink.executor": "Run",
-    "JUnit.MtsCheck.testLinkFunctionality.executor": "Debug",
-    "JUnit.MtsCheck.testLogoPresence.executor": "Debug",
-    "JUnit.MtsCheck.testOpen.executor": "Run",
-    "Maven.Lesson4 [-Dtest=NOT_RESOLVED...].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson__15",
+
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shaik/IdeaProjects/Aston_project/Aston_HomeWork",
@@ -80,12 +67,7 @@
     "settings.editor.selected.configurable": "editor.preferences.folding"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MtsCheck.testContinue">
-    <configuration name="MtsCheck.testContinue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson15.*" />
+
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,77 +79,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MtsCheck.testLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson15" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson15.MtsCheck" />
-      <option name="METHOD_NAME" value="testLink" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MtsCheck.testLinkFunctionality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson15" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson15.MtsCheck" />
-      <option name="METHOD_NAME" value="testLinkFunctionality" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MtsCheck.testLogoPresence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson15" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson15.MtsCheck" />
-      <option name="METHOD_NAME" value="testLogoPresence" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MtsCheck.testOpen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson15" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson15.MtsCheck" />
-      <option name="METHOD_NAME" value="testOpen" />
-      <option name="TEST_OBJECT" value="method" />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MtsCheck.testContinue" />
-        <item itemvalue="JUnit.MtsCheck.testLink" />
-        <item itemvalue="JUnit.MtsCheck.testLogoPresence" />
-        <item itemvalue="JUnit.MtsCheck.testLinkFunctionality" />
-        <item itemvalue="JUnit.MtsCheck.testOpen" />
+
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733668607234</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Вычисление факториала числа (TestNG)">
+      <option name="closed" value="true" />
+      <created>1734772594555</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1734772594555</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,15 +336,9 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="FILTERS">
+              <option name="COLUMN_ID_WIDTH">
                 <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="Lesson_12" />
-                      </list>
-                    </value>
-                  </entry>
+
                 </map>
               </option>
             </State>
@@ -427,7 +348,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create .gitignore and pom.xml" />
     <MESSAGE value="Выполнено первое задание. Создан метод printThreeWords() и вызван в Main." />
     <MESSAGE value="Выполнено второе задание. Создан метод checkSumSign() и вызван в Main." />
     <MESSAGE value="Выполнено третье задание. Создан метод printColor() и вызван в Main." />
@@ -452,6 +372,7 @@
     <MESSAGE value="Создан класс Cat и Dog с наследованием от класса Animal. Реализован подсчет созданных животных. У котов реализована возможность есть из миски." />
     <MESSAGE value="Добавлен интерфейс Shape" />
     <MESSAGE value="Исправлена структура кода." />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлена структура кода." />
+    <MESSAGE value="Вычисление факториала числа (TestNG)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вычисление факториала числа (TestNG)" />
   </component>
 </project>
