@@ -68,13 +68,13 @@
   }
 }]]></component>
 
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson15" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson15.MtsCheck" />
+      <option name="METHOD_NAME" value="testContinue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,7 +87,6 @@
     <recent_temporary>
       <list>
 
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
