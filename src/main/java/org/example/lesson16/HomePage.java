@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.junit.Assert;
 
 import java.time.Duration;
+import java.util.List;
 
 public class HomePage {
     private WebDriver driver;
@@ -43,6 +44,19 @@ public class HomePage {
     private By placeholderNumber1 = By.xpath("//*[@id=\"score-arrears\"]");
     private By placeholderSum3 = By.xpath("//*[@id=\"arrears-sum\"]");
     private By placeholderEmail3 = By.xpath("//*[@id=\"arrears-email\"]");
+
+    // 2 часть задания.
+
+    private By frame = By.xpath("/html/body/div[8]/div/iframe");
+    private By appPaymentContainer = By.className("pay-description__cost"); //10 руб
+    private By appPaymentContainer1 = By.xpath("/html/body/app-root/div/div/div/app-payment-container/section/div/app-card-page/div/div[1]/button"); //Оплатить 10.00 BYN
+    private By paymentNumber = By.xpath("/html/body/app-root/div/div/div/app-payment-container/section/div/div/div[2]/span");//Оплата: Услуги связи Номер:375297777777
+
+    private By labelNumberCard = By.xpath("/html/body/app-root/div/div/div/app-payment-container/section/div/app-card-page/div/div[1]/app-card-input/form/div[1]/div[1]/app-input/div/div/div[1]/label"); //Номер карты
+    private By labelPeriod = By.xpath("/html/body/app-root/div/div/div/app-payment-container/section/div/app-card-page/div/div[1]/app-card-input/form/div[1]/div[2]/div[1]/app-input/div/div/div[1]/label"); //Срок действия
+    private By cvc = By.xpath("/html/body/app-root/div/div/div/app-payment-container/section/div/app-card-page/div/div[1]/app-card-input/form/div[1]/div[2]/div[3]/app-input/div/div/div[1]/label"); //CVC
+    private By name = By.xpath("/html/body/app-root/div/div/div/app-payment-container/section/div/app-card-page/div/div[1]/app-card-input/form/div[1]/div[3]/app-input/div/div/div[1]/label"); //Имя держателя (как на карте)
+    private By logotype = By.xpath("/html/body/app-root/div/div/div/app-payment-container/section/div/app-card-page/div/div[1]/app-card-input/form/div[1]/div[1]/app-input/div/div/div[2]/div/div"); //иконки логотипов
 
     // Конструктор
     public HomePage(WebDriver driver) {
@@ -184,6 +198,86 @@ public void selectInternetTabAndVerifyPlaceholders() {
         Assert.assertEquals("Номер счета на 2073", getPlaceholderNumber1());
         Assert.assertEquals("Сумма", getPlaceholderSum3());
         Assert.assertEquals("E-mail для отправки чека", getPlaceholderEmail3());
+    }
+
+//2 часть
+
+    public String getDisplayedAmount() {
+        return driver.findElement(appPaymentContainer).getText().trim();
+    }
+
+    public String getButtonText() {
+        return driver.findElement(appPaymentContainer1).getText().trim();
+    }
+
+    public String getPaymentNumber() {
+        return driver.findElement(paymentNumber).getText().trim();
+    }
+
+    public String getCardNumberLabel() {
+        return driver.findElement(labelNumberCard).getText().trim();
+    }
+
+    public String getPeriodLabel() {
+        return driver.findElement(labelPeriod).getText().trim();
+    }
+
+    public String getCvcLabel() {
+        return driver.findElement(cvc).getText().trim();
+    }
+
+    public String getNameLabel() {
+        return driver.findElement(name).getText().trim();
+    }
+
+    public List<WebElement> getLogos() {
+        return driver.findElements(logotype);
+    }
+
+
+    public void setFrame() {
+        WebElement iframeElement = wait.until(ExpectedConditions.presenceOfElementLocated(frame));
+        driver.switchTo().frame(iframeElement); // Переключаемся на iframe
+    }
+    public void verifyDisplayedAmount(String expectedAmount) {
+        String actualAmount = getDisplayedAmount();
+        Assert.assertEquals("Сумма отображается некорректно!", expectedAmount, actualAmount);
+    }
+
+    public void verifyButtonText(String expectedText) {
+        String actualButtonText = getButtonText();
+        Assert.assertTrue("Текст на кнопке оплаты некорректен!", actualButtonText.contains(expectedText));
+    }
+
+    public void verifyPaymentNumber(String expectedPhoneNumber) {
+        String actualPhoneNumber = getPaymentNumber();
+        Assert.assertEquals("Номер телефона отображается некорректно!", expectedPhoneNumber, actualPhoneNumber);
+    }
+
+    public void verifyLabel(String labelName, String expectedText) {
+        String actualText = "";
+        switch (labelName) {
+            case "cardNumber":
+                actualText = getCardNumberLabel();
+                break;
+            case "period":
+                actualText = getPeriodLabel();
+                break;
+            case "cvc":
+                actualText = getCvcLabel();
+                break;
+            case "name":
+                actualText = getNameLabel();
+                break;
+            default:
+                throw new IllegalArgumentException("Некорректное имя метки: " + labelName);
+        }
+        Assert.assertEquals("Некорректная подпись для " + labelName + "!", expectedText, actualText);
+    }
+
+    public void verifyLogosPresent() {
+        List<WebElement> logos = getLogos();
+        Assert.assertFalse("Иконки платежных систем не отображаются!", logos.isEmpty());
     }
 
 
