@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Работа с коллекциями HashMap и List">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/FactorialTest.java" afterDir="false" />
+    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="добавлена 2 часть задания. Фрейм с оплатой услуг, проверка полей.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson17/PostmanTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson13/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson13/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson13/UniqueWordsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson13/UniqueWordsCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/FactorialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/FactorialTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_14_junit_5" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,14 +66,13 @@
     "Application.Main.executor": "Debug",
     "Application.Main10.executor": "Run",
     "Application.Main12.executor": "Debug",
-    "Application.PhoneBook.executor": "Run",
-    "Application.UniqueWordsCounter.executor": "Debug",
-    "Maven.Lesson4 [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "JUnit.MtsCheck.testContinue.executor": "Run",
+    "JUnit.MtsCheck.testSelectDebitAndVerifyPlaceholders.executor": "Run",
+    "JUnit.PostmanTest.whenGetRequest_thenEqual.executor": "Run",
+    "JUnit.PostmanTest.whenPostRaw_thenEqual.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.FactorialTest.executor": "Run",
-    "git-widget-placeholder": "Lesson__14__testng",
-    "ignore.preview.features.used": "true",
+    "git-widget-placeholder": "Lesson__17",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shaik/IdeaProjects/Aston_project/Aston_HomeWork",
@@ -76,58 +80,97 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.folding"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.FactorialTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lessonSix.Main" />
+  <component name="RunManager" selected="JUnit.PostmanTest.whenDeleteRequest_thenEqual">
+    <configuration name="PostmanTest.whenDeleteRequest_thenEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lessonSix.*" />
+          <option name="PATTERN" value="org.example.lesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson17" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson17.PostmanTest" />
+      <option name="METHOD_NAME" value="whenDeleteRequest_thenEqual" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueWordsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson13.UniqueWordsCounter" />
+    <configuration name="PostmanTest.whenPatchRequest_thenEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson13.*" />
+          <option name="PATTERN" value="org.example.lesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson17" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson17.PostmanTest" />
+      <option name="METHOD_NAME" value="whenPatchRequest_thenEqual" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostmanTest.whenPostForm_thenEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson14_1.*" />
+          <option name="PATTERN" value="org.example.lesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson14_1" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson14_1.FactorialTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="org.example.lesson17" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson17.PostmanTest" />
+      <option name="METHOD_NAME" value="whenPostForm_thenEqual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostmanTest.whenPostRaw_thenEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson17" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson17.PostmanTest" />
+      <option name="METHOD_NAME" value="whenPostRaw_thenEqual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostmanTest.whenPutRequest_thenEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson17" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson17.PostmanTest" />
+      <option name="METHOD_NAME" value="whenPutRequest_thenEqual" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FactorialTest" />
-        <item itemvalue="Application.UniqueWordsCounter" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PostmanTest.whenDeleteRequest_thenEqual" />
+        <item itemvalue="JUnit.PostmanTest.whenPatchRequest_thenEqual" />
+        <item itemvalue="JUnit.PostmanTest.whenPutRequest_thenEqual" />
+        <item itemvalue="JUnit.PostmanTest.whenPostForm_thenEqual" />
+        <item itemvalue="JUnit.PostmanTest.whenPostRaw_thenEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +417,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Lesson_14_junit_5" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
