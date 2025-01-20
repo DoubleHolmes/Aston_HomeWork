@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="добавлена 2 часть задания. Фрейм с оплатой услуг, проверка полей.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson17/PostmanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson13/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson13/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson13/UniqueWordsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson13/UniqueWordsCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/FactorialTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/Factorial.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/FactorialTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,88 +58,38 @@
     "Application.Main.executor": "Debug",
     "Application.Main10.executor": "Run",
     "Application.Main12.executor": "Debug",
-    "JUnit.MtsCheck.testContinue.executor": "Run",
-    "JUnit.MtsCheck.testSelectDebitAndVerifyPlaceholders.executor": "Run",
-    "JUnit.PostmanTest.whenGetRequest_thenEqual.executor": "Run",
-    "JUnit.PostmanTest.whenPostRaw_thenEqual.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson__17",
+
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shaik/IdeaProjects/Aston_project/Aston_HomeWork",
     "onboarding.tips.debug.path": "C:/Users/shaik/IdeaProjects/Lesson4/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
-  }
-}]]></component>
+
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
 
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostmanTest.whenPatchRequest_thenEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson17" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson17.PostmanTest" />
-      <option name="METHOD_NAME" value="whenPatchRequest_thenEqual" />
+
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostmanTest.whenPostForm_thenEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson17" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson17.PostmanTest" />
-      <option name="METHOD_NAME" value="whenPostForm_thenEqual" />
+
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostmanTest.whenPostRaw_thenEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson17" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson17.PostmanTest" />
-      <option name="METHOD_NAME" value="whenPostRaw_thenEqual" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostmanTest.whenPutRequest_thenEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson17" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson17.PostmanTest" />
-      <option name="METHOD_NAME" value="whenPutRequest_thenEqual" />
+
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -402,7 +344,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+
                       </list>
                     </value>
                   </entry>
@@ -440,6 +382,5 @@
     <MESSAGE value="Создан класс Cat и Dog с наследованием от класса Animal. Реализован подсчет созданных животных. У котов реализована возможность есть из миски." />
     <MESSAGE value="Добавлен интерфейс Shape" />
     <MESSAGE value="Исправлена структура кода." />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлена структура кода." />
   </component>
 </project>
