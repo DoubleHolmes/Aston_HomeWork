@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Добавлен Allure reports">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MtsCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson13/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson13/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/FactorialTest.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/FactorialTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_14_junit_5" />
+
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,19 +58,7 @@
     "Application.Main.executor": "Debug",
     "Application.Main10.executor": "Run",
     "Application.Main12.executor": "Debug",
-    "Application.PhoneBook.executor": "Run",
-    "Application.UniqueWordsCounter.executor": "Debug",
-    "JUnit.MtsCheck.executor": "Debug",
-    "JUnit.MtsCheck.testContinue.executor": "Run",
-    "JUnit.MtsCheck.testLogo.executor": "Run",
-    "JUnit.MtsCheck.testOpen.executor": "Run",
-    "JUnit.MtsCheck.testSelectInternetTabAndVerifyPlaceholders.executor": "Run",
-    "Maven.Lesson4 [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.FactorialTest.executor": "Run",
-    "git-widget-placeholder": "Lesson__18",
-    "ignore.preview.features.used": "true",
+
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shaik/IdeaProjects/Aston_project/Aston_HomeWork",
@@ -85,50 +66,30 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
-  }
-}]]></component>
 
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MtsCheck.testContinue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MtsCheck" />
-      <option name="METHOD_NAME" value="testContinue" />
+
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MtsCheck.testLogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MtsCheck" />
-      <option name="METHOD_NAME" value="testLogo" />
+
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MtsCheck.testOpen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MtsCheck" />
-      <option name="METHOD_NAME" value="testOpen" />
+
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MtsCheck.testSelectInternetTabAndVerifyPlaceholders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MtsCheck" />
-      <option name="METHOD_NAME" value="testSelectInternetTabAndVerifyPlaceholders" />
+
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -383,7 +344,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Lesson_14_junit_5" />
+
                       </list>
                     </value>
                   </entry>
@@ -396,6 +357,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create .gitignore and pom.xml" />
     <MESSAGE value="Выполнено первое задание. Создан метод printThreeWords() и вызван в Main." />
     <MESSAGE value="Выполнено второе задание. Создан метод checkSumSign() и вызван в Main." />
     <MESSAGE value="Выполнено третье задание. Создан метод printColor() и вызван в Main." />
@@ -420,7 +382,5 @@
     <MESSAGE value="Создан класс Cat и Dog с наследованием от класса Animal. Реализован подсчет созданных животных. У котов реализована возможность есть из миски." />
     <MESSAGE value="Добавлен интерфейс Shape" />
     <MESSAGE value="Исправлена структура кода." />
-    <MESSAGE value="Добавлен Allure reports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен Allure reports" />
   </component>
 </project>
